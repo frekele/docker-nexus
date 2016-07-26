@@ -1,0 +1,7 @@
+#!/usr/bin/with-contenv sh
+
+#Run with user nexus.
+exec s6-setuidgid nexus /opt/sonatype/nexus/bin/nexus run;
+
+#Run with user root pid 1.
+# exec /opt/sonatype/nexus/bin/nexus run;
