@@ -15,6 +15,9 @@
 #### Nexus with Oracle JDK Branches:
 | Branch                       | From                     | Usage        | Tag Names                        |
 | ---------------------------- | ------------------------ | ------------ | ---------------------------------|
+| [3.0.1-01] - latest          | frekele/java:jdk8        | Production   | 3.0.1-01, 3, latest              |
+| [3.0.0-03]                   | frekele/java:jdk8        | Production   | 3.0.0-03                         |
+| [dev]                        | frekele/java:jdk8        | Development  | dev                              |
 
 
 # Dockerfile extends From:
