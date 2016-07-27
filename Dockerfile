@@ -17,11 +17,9 @@ RUN mkdir -p /opt/sonatype/nexus \
     && wget --no-check-certificate --no-cookies http://download.sonatype.com/nexus/3/nexus-${NEXUS_VERSION}-unix.tar.gz \
     && wget --no-check-certificate --no-cookies http://download.sonatype.com/nexus/3/nexus-${NEXUS_VERSION}-unix.tar.gz.md5 \
     && echo "$(cat nexus-${NEXUS_VERSION}-unix.tar.gz.md5) nexus-${NEXUS_VERSION}-unix.tar.gz" | md5sum -c \
-    && echo "$(cat nexus-${NEXUS_VERSION}-unix.tar.gz.sha1) nexus-${NEXUS_VERSION}-unix.tar.gz" | sha1sum -c \
     && tar -zvxf nexus-${NEXUS_VERSION}-unix.tar.gz --strip-components=1 -C /opt/sonatype/nexus \
     && rm -f nexus-${NEXUS_VERSION}-unix.tar.gz \
     && rm -f nexus-${NEXUS_VERSION}-unix.tar.gz.md5 \
-    && rm -f nexus-${NEXUS_VERSION}-unix.tar.gz.sha1 \
     && chown -R root:root /opt/sonatype/nexus
 
 ## Configure Nexus Runtime ENV
