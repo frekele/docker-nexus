@@ -28,6 +28,28 @@
 ## Relations:
  - https://github.com/just-containers/s6-overlay
 
+
+### Working with Persistent Data:
+#### Data volume
+**Important! For use Nexus user, you needs to set the PID=200.*
+```
+mkdir /mnt/my-volume/nexus-data
+chown -R 200:200 /mnt/my-volume/nexus-data
+
+docker run --rm -v /mnt/my-volume/nexus-data:/nexus-data --name nexus -p 8081:8081 frekele/nexus
+
+# or
+
+docker volume create --name nexus-data
+docker run --rm -v nexus-data:/nexus-data --name nexus -p 8081:8081 frekele/nexus
+```
+#### Data volume container
+```
+docker run -d --name nexus-data -p 8081:8081 frekele/nexus
+docker run --rm --volumes-from nexus-data --name nexus -p 8081:8081 frekele/nexus
+```
+
+
 ### License:
 See [NEXUS LICENSE]
 
