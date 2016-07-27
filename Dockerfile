@@ -1,4 +1,4 @@
-FROM freitasul/java:8u102
+FROM frekele/java:jdk8
 
 MAINTAINER frekele <leandro.freitas@softdevelop.com.br>
 
