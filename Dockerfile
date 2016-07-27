@@ -2,7 +2,7 @@ FROM frekele/java:jdk8
 
 MAINTAINER frekele <leandro.freitas@softdevelop.com.br>
 
-ENV NEXUS_VERSION=3.0.1-01
+ENV NEXUS_VERSION=3.0.0-03
 ENV NEXUS_DATA=/nexus-data
 
 ENV JAVA_MAX_MEM=1024m
