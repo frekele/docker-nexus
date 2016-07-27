@@ -35,7 +35,6 @@
 ```
 mkdir /mnt/my-volume/nexus-data
 chown -R 200:200 /mnt/my-volume/nexus-data
-
 docker run --rm -v /mnt/my-volume/nexus-data:/nexus-data --name nexus -p 8081:8081 frekele/nexus
 
 # or
@@ -47,6 +46,11 @@ docker run --rm -v nexus-data:/nexus-data --name nexus -p 8081:8081 frekele/nexu
 ```
 docker run -d --name nexus-data -p 8081:8081 frekele/nexus
 docker run --rm --volumes-from nexus-data --name nexus -p 8081:8081 frekele/nexus
+```
+
+### Run with more memory
+```
+docker run -e JAVA_MAX_MEM=2048m -e JAVA_MIN_MEM=512m --rm --name nexus -p 8081:8081 frekele/nexus
 ```
 
 
