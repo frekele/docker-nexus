@@ -1,4 +1,4 @@
-# Nexus OSS Sonatype (s6-overlay) Docker Image
+# Nexus Repository OSS (s6-overlay) Docker Image
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/frekele/nexus.svg)](https://hub.docker.com/r/frekele/nexus/)
 [![Docker Stars](https://img.shields.io/docker/stars/frekele/nexus.svg)](https://hub.docker.com/r/frekele/nexus/)
