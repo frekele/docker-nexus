@@ -64,12 +64,6 @@ frekele/docker-Nexus is **licensed** under the **[MIT License]**. The terms of t
 [NEXUS LICENSE]: https://github.com/frekele/docker-nexus/blob/dev/NEXUS_LICENSE
 [MIT LICENSE]: https://github.com/frekele/docker-nexus/blob/dev/LICENSE
 
-[2.14.1-jdk8]: https://github.com/frekele/docker-nexus/blob/2.14.1-jdk8/Dockerfile
-[2.14.1-jdk8u102]: https://github.com/frekele/docker-nexus/blob/2.14.1-jdk8u102/Dockerfile
-[2.14.1-jdk8u101]: https://github.com/frekele/docker-nexus/blob/2.14.1-jdk8u101/Dockerfile
-[2.14.1-jdk8u92]: https://github.com/frekele/docker-nexus/blob/2.14.1-jdk8u92/Dockerfile
-[2.14.1-jdk8u91]: https://github.com/frekele/docker-nexus/blob/2.14.1-jdk8u91/Dockerfile
-[2.14.1-jdk7]: https://github.com/frekele/docker-nexus/blob/2.14.1-jdk7/Dockerfile
-[2.14.1-jdk7u80]: https://github.com/frekele/docker-nexus/blob/2.14.1-jdk7u80/Dockerfile
-[2.14.1-jdk7u79]: https://github.com/frekele/docker-nexus/blob/2.14.1-jdk7u79/Dockerfile
+[3.0.1-01]: https://github.com/frekele/docker-nexus/blob/3.0.1-01/Dockerfile
+[3.0.0-03]: https://github.com/frekele/docker-nexus/blob/3.0.0-03/Dockerfile
 [dev]: https://github.com/frekele/docker-nexus/blob/dev/Dockerfile
