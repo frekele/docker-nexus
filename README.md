@@ -32,7 +32,7 @@
 
 ### Working with Persistent Data:
 #### Data volume
-**Important! For use Nexus user, you needs to set the PID=200.*
+**Important! For use Nexus user, you needs to set the UID=200.*
 ```
 mkdir /mnt/my-volume/nexus-data
 chown -R 200:200 /mnt/my-volume/nexus-data
