@@ -13,11 +13,13 @@
 
 
 #### Nexus with Oracle JDK Branches:
-| Branch                       | From                     | Usage        | Tag Names                        |
-| ---------------------------- | ------------------------ | ------------ | ---------------------------------|
-| [3.0.1-01] - latest          | frekele/java:jdk8        | Production   | 3.0.1-01, 3.0.1, 3, latest       |
-| [3.0.0-03]                   | frekele/java:jdk8        | Production   | 3.0.0-03, 3.0.0                  |
-| [dev]                        | frekele/java:jdk8        | Development  | dev                              |
+| Branch                       | From                     | Usage        | Tag Names                           |
+| ---------------------------- | ------------------------ | ------------ | ------------------------------------|
+| [3.1.0-04] - latest          | frekele/java:jdk8        | Production   | 3.1.0-04, 3.1.0, 3.1, 3, latest     |
+| [3.0.2-02]                   | frekele/java:jdk8        | Production   | 3.0.2-02, 3.0.2, 3.0                |
+| [3.0.1-01]                   | frekele/java:jdk8        | Production   | 3.0.1-01, 3.0.1                     |
+| [3.0.0-03]                   | frekele/java:jdk8        | Production   | 3.0.0-03, 3.0.0                     |
+| [dev]                        | frekele/java:jdk8        | Development  | dev                                 |
 
 
 # Dockerfile extends From:
@@ -90,6 +92,8 @@ frekele/docker-Nexus is **licensed** under the **[MIT License]**. The terms of t
 [NEXUS LICENSE]: https://github.com/frekele/docker-nexus/blob/dev/NEXUS_LICENSE
 [MIT LICENSE]: https://github.com/frekele/docker-nexus/blob/dev/LICENSE
 
+[3.1.0-04]: https://github.com/frekele/docker-nexus/blob/3.1.0-04/Dockerfile
+[3.0.2-02]: https://github.com/frekele/docker-nexus/blob/3.0.2-02/Dockerfile
 [3.0.1-01]: https://github.com/frekele/docker-nexus/blob/3.0.1-01/Dockerfile
 [3.0.0-03]: https://github.com/frekele/docker-nexus/blob/3.0.0-03/Dockerfile
 [dev]: https://github.com/frekele/docker-nexus/blob/dev/Dockerfile
