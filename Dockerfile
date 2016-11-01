@@ -15,14 +15,14 @@ ENV EXTRA_JAVA_OPTS=""
 WORKDIR /tmp
 
 # Download and extract apache ant to opt folder
-RUN mkdir -p /opt/sonatype/nexus \
+RUN mkdir -p ${NEXUS_HOME} \
     && wget --no-check-certificate --no-cookies http://download.sonatype.com/nexus/3/nexus-${NEXUS_VERSION}-unix.tar.gz \
     && wget --no-check-certificate --no-cookies http://download.sonatype.com/nexus/3/nexus-${NEXUS_VERSION}-unix.tar.gz.md5 \
     && echo "$(cat nexus-${NEXUS_VERSION}-unix.tar.gz.md5) nexus-${NEXUS_VERSION}-unix.tar.gz" | md5sum -c \
-    && tar -zvxf nexus-${NEXUS_VERSION}-unix.tar.gz --strip-components=1 -C /opt/sonatype/nexus \
+    && tar -zvxf nexus-${NEXUS_VERSION}-unix.tar.gz --strip-components=1 -C ${NEXUS_HOME} \
     && rm -f nexus-${NEXUS_VERSION}-unix.tar.gz \
     && rm -f nexus-${NEXUS_VERSION}-unix.tar.gz.md5 \
-    && chown -R root:root /opt/sonatype/nexus
+    && chown -R root:root ${NEXUS_HOME}
 
 # Configure Nexus
 RUN sed -e "s|karaf.home=.|karaf.home=${NEXUS_HOME}|g" \
@@ -33,7 +33,7 @@ RUN sed -e "s|karaf.home=.|karaf.home=${NEXUS_HOME}|g" \
         -e "s|java.io.tmpdir=.*|java.io.tmpdir=${NEXUS_DATA}/tmp|g" \
         -e "s|LogFile=.*|LogFile=${NEXUS_DATA}/log/jvm.log|g" \
         -i ${NEXUS_HOME}/bin/nexus.vmoptions \
-   && sed -e "s|nexus-context-path=/|nexus-context-path=/\${NEXUS_CONTEXT}|g" \
+   && sed -e "s|nexus-context-path=/|nexus-context-path=/${NEXUS_CONTEXT}|g" \
           -i ${NEXUS_HOME}/etc/nexus-default.properties \
   && mkdir -p ${NEXUS_DATA}/etc ${NEXUS_DATA}/log ${NEXUS_DATA}/tmp
 
