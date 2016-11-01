@@ -37,6 +37,14 @@ RUN sed -e "s|karaf.home=.|karaf.home=${NEXUS_HOME}|g" \
           -i ${NEXUS_HOME}/etc/nexus-default.properties \
   && mkdir -p ${NEXUS_DATA}/etc ${NEXUS_DATA}/log ${NEXUS_DATA}/tmp
 
+# Fix for issue https://issues.sonatype.org/browse/NEXUS-10049
+RUN touch ${NEXUS_HOME}/etc/karaf/org.apache.karaf.command.acl.feature.cfg \
+  && touch ${NEXUS_HOME}/etc/karaf/org.apache.karaf.command.acl.system.cfg \
+  && touch ${NEXUS_HOME}/etc/karaf/org.apache.karaf.command.acl.bundle.cfg \
+  && touch ${NEXUS_HOME}/etc/karaf/org.apache.karaf.command.acl.shell.cfg \
+  && touch ${NEXUS_HOME}/etc/karaf/org.apache.karaf.command.acl.config.cfg \
+  && touch ${NEXUS_HOME}/etc/karaf/org.apache.karaf.command.acl.jaas.cfg
+
 # Create nexus user with UID 200
 RUN useradd -r -u 200 -m -c "nexus role account" -d ${NEXUS_DATA} -s /bin/false nexus
 
