@@ -37,7 +37,7 @@ RUN sed -e "s|karaf.home=.|karaf.home=${NEXUS_HOME}|g" \
           -i ${NEXUS_HOME}/etc/nexus-default.properties \
   && mkdir -p ${NEXUS_DATA}/etc ${NEXUS_DATA}/log ${NEXUS_DATA}/tmp
 
-# Create nexus user with PID 200
+# Create nexus user with UID 200
 RUN useradd -r -u 200 -m -c "nexus role account" -d ${NEXUS_DATA} -s /bin/false nexus
 
 # Add Volume
