@@ -15,7 +15,8 @@
 #### Nexus with Oracle JDK Branches:
 | Branch                       | From                     | Usage        | Tag Names                           |
 | ---------------------------- | ------------------------ | ------------ | ------------------------------------|
-| [3.1.0-04] - latest          | frekele/java:jdk8        | Production   | 3.1.0-04, 3.1.0, 3.1, 3, latest     |
+| [3.2.0-01] - latest          | frekele/java:jdk8        | Production   | 3.2.0-01, 3.2.0, 3.2, 3, latest     |
+| [3.1.0-04]                   | frekele/java:jdk8        | Production   | 3.1.0-04, 3.1.0, 3.1                |
 | [3.0.2-02]                   | frekele/java:jdk8        | Production   | 3.0.2-02, 3.0.2, 3.0                |
 | [3.0.1-01]                   | frekele/java:jdk8        | Production   | 3.0.1-01, 3.0.1                     |
 | [3.0.0-03]                   | frekele/java:jdk8        | Production   | 3.0.0-03, 3.0.0                     |
@@ -33,7 +34,7 @@
 
 ### Working with Persistent Data:
 #### Data volume
-**Important! For use Nexus user, you needs to set the PID=200.*
+**Important! For use Nexus user, you needs to set the UID=200.*
 ```
 mkdir /mnt/my-volume/nexus-data
 chown -R 200:200 /mnt/my-volume/nexus-data
@@ -92,6 +93,7 @@ frekele/docker-Nexus is **licensed** under the **[MIT License]**. The terms of t
 [NEXUS LICENSE]: https://github.com/frekele/docker-nexus/blob/dev/NEXUS_LICENSE
 [MIT LICENSE]: https://github.com/frekele/docker-nexus/blob/dev/LICENSE
 
+[3.2.0-01]: https://github.com/frekele/docker-nexus/blob/3.2.0-01/Dockerfile
 [3.1.0-04]: https://github.com/frekele/docker-nexus/blob/3.1.0-04/Dockerfile
 [3.0.2-02]: https://github.com/frekele/docker-nexus/blob/3.0.2-02/Dockerfile
 [3.0.1-01]: https://github.com/frekele/docker-nexus/blob/3.0.1-01/Dockerfile
