@@ -94,6 +94,7 @@ frekele/docker-Nexus is **licensed** under the **[MIT License]**. The terms of t
 [NEXUS LICENSE]: https://github.com/frekele/docker-nexus/blob/dev/NEXUS_LICENSE
 [MIT LICENSE]: https://github.com/frekele/docker-nexus/blob/dev/LICENSE
 
+[3.2.1-01]: https://github.com/frekele/docker-nexus/blob/3.2.1-01/Dockerfile
 [3.2.0-01]: https://github.com/frekele/docker-nexus/blob/3.2.0-01/Dockerfile
 [3.1.0-04]: https://github.com/frekele/docker-nexus/blob/3.1.0-04/Dockerfile
 [3.0.2-02]: https://github.com/frekele/docker-nexus/blob/3.0.2-02/Dockerfile
