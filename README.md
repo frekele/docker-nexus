@@ -15,7 +15,8 @@
 #### Nexus with Oracle JDK Branches:
 | Branch                       | From                     | Usage        | Tag Names                           |
 | ---------------------------- | ------------------------ | ------------ | ------------------------------------|
-| [3.2.0-01] - latest          | frekele/java:jdk8        | Production   | 3.2.0-01, 3.2.0, 3.2, 3, latest     |
+| [3.2.1-01] - latest          | frekele/java:jdk8        | Production   | 3.2.1-01, 3.2.1, 3.2, 3, latest     |
+| [3.2.0-01]                   | frekele/java:jdk8        | Production   | 3.2.0-01, 3.2.0                     |
 | [3.1.0-04]                   | frekele/java:jdk8        | Production   | 3.1.0-04, 3.1.0, 3.1                |
 | [3.0.2-02]                   | frekele/java:jdk8        | Production   | 3.0.2-02, 3.0.2, 3.0                |
 | [3.0.1-01]                   | frekele/java:jdk8        | Production   | 3.0.1-01, 3.0.1                     |
