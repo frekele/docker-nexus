@@ -15,7 +15,8 @@
 #### Nexus with Oracle JDK Branches:
 | Branch                       | From                     | Usage        | Tag Names                           |
 | ---------------------------- | ------------------------ | ------------ | ------------------------------------|
-| [3.3.2-02] - latest          | frekele/java:jdk8        | Production   | 3.3.2-02, 3.3.2, 3.3, 3, latest     |
+| [3.4.0-02] - latest          | frekele/java:jdk8        | Production   | 3.4.0-02, 3.4.0, 3.4, 3, latest     |
+| [3.3.2-02]                   | frekele/java:jdk8        | Production   | 3.3.2-02, 3.3.2                     |
 | [3.3.1-01]                   | frekele/java:jdk8        | Production   | 3.3.1-01, 3.3.1                     |
 | [3.3.0-01]                   | frekele/java:jdk8        | Production   | 3.3.0-01, 3.3.0                     |
 | [3.2.1-01]                   | frekele/java:jdk8        | Production   | 3.2.1-01, 3.2.1, 3.2                |
@@ -97,6 +98,7 @@ frekele/docker-Nexus is **licensed** under the **[MIT License]**. The terms of t
 [NEXUS LICENSE]: https://github.com/frekele/docker-nexus/blob/dev/NEXUS_LICENSE
 [MIT LICENSE]: https://github.com/frekele/docker-nexus/blob/dev/LICENSE
 
+[3.4.0-02]: https://github.com/frekele/docker-nexus/blob/3.4.0-02/Dockerfile
 [3.3.2-02]: https://github.com/frekele/docker-nexus/blob/3.3.2-02/Dockerfile
 [3.3.1-01]: https://github.com/frekele/docker-nexus/blob/3.3.1-01/Dockerfile
 [3.3.0-01]: https://github.com/frekele/docker-nexus/blob/3.3.0-01/Dockerfile
