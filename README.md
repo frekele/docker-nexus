@@ -16,7 +16,7 @@
 | Branch                       | From                     | Usage        | Tag Names                           |
 | ---------------------------- | ------------------------ | ------------ | ------------------------------------|
 | [3.4.0-02] - latest          | frekele/java:jdk8        | Production   | 3.4.0-02, 3.4.0, 3.4, 3, latest     |
-| [3.3.2-02]                   | frekele/java:jdk8        | Production   | 3.3.2-02, 3.3.2                     |
+| [3.3.2-02]                   | frekele/java:jdk8        | Production   | 3.3.2-02, 3.3.2, 3.3                |
 | [3.3.1-01]                   | frekele/java:jdk8        | Production   | 3.3.1-01, 3.3.1                     |
 | [3.3.0-01]                   | frekele/java:jdk8        | Production   | 3.3.0-01, 3.3.0                     |
 | [3.2.1-01]                   | frekele/java:jdk8        | Production   | 3.2.1-01, 3.2.1, 3.2                |
