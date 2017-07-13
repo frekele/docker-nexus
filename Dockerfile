@@ -2,7 +2,7 @@ FROM frekele/java:jdk8
 
 MAINTAINER frekele <leandro.freitas@softdevelop.com.br>
 
-ENV NEXUS_VERSION=3.3.2-02
+ENV NEXUS_VERSION=3.4.0-02
 ENV NEXUS_HOME=/opt/sonatype/nexus
 ENV NEXUS_DATA=/nexus-data
 ENV NEXUS_CONTEXT=''
