@@ -13,6 +13,7 @@
 
 
 #### Nexus with Oracle JDK Branches:
+
 | Branch                       | From                     | Usage        | Tag Names                           |
 | ---------------------------- | ------------------------ | ------------ | ------------------------------------|
 | [3.5.0-02] - latest          | frekele/java:jdk8        | Production   | 3.5.0-02, 3.5.0, 3.5, 3, latest     |
@@ -26,7 +27,7 @@
 | [3.0.2-02]                   | frekele/java:jdk8        | Production   | 3.0.2-02, 3.0.2, 3.0                |
 | [3.0.1-01]                   | frekele/java:jdk8        | Production   | 3.0.1-01, 3.0.1                     |
 | [3.0.0-03]                   | frekele/java:jdk8        | Production   | 3.0.0-03, 3.0.0                     |
-| [dev]                        | frekele/java:jdk8        | Development  | dev                                 |
+| [master]                     | frekele/java:jdk8        | Development  | dev                                 |
 
 
 # Dockerfile extends From:
@@ -91,13 +92,13 @@ frekele/docker-Nexus is **licensed** under the **[MIT License]**. The terms of t
     SOFTWARE.
 
 
-[NexusImage]: https://raw.githubusercontent.com/frekele/docker-nexus/dev/nexus-logo.png
+[NexusImage]: https://raw.githubusercontent.com/frekele/docker-nexus/master/nexus-logo.png
 [NexusWebsite]: http://www.sonatype.com/nexus-repository-oss
 [Website]: https://frekele.github.io/docker-nexus
 [GitHub]: https://github.com/frekele/docker-nexus
 [DockerHub]: https://hub.docker.com/r/frekele/nexus
-[NEXUS LICENSE]: https://github.com/frekele/docker-nexus/blob/dev/NEXUS_LICENSE
-[MIT LICENSE]: https://github.com/frekele/docker-nexus/blob/dev/LICENSE
+[NEXUS LICENSE]: https://github.com/frekele/docker-nexus/blob/master/NEXUS_LICENSE
+[MIT LICENSE]: https://github.com/frekele/docker-nexus/blob/master/LICENSE
 
 [3.5.0-02]: https://github.com/frekele/docker-nexus/blob/3.5.0-02/Dockerfile
 [3.4.0-02]: https://github.com/frekele/docker-nexus/blob/3.4.0-02/Dockerfile
@@ -110,4 +111,4 @@ frekele/docker-Nexus is **licensed** under the **[MIT License]**. The terms of t
 [3.0.2-02]: https://github.com/frekele/docker-nexus/blob/3.0.2-02/Dockerfile
 [3.0.1-01]: https://github.com/frekele/docker-nexus/blob/3.0.1-01/Dockerfile
 [3.0.0-03]: https://github.com/frekele/docker-nexus/blob/3.0.0-03/Dockerfile
-[dev]: https://github.com/frekele/docker-nexus/blob/dev/Dockerfile
+[master]: https://github.com/frekele/docker-nexus/blob/master/Dockerfile
