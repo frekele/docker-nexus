@@ -18,7 +18,7 @@
 | ---------------------------- | ------------------------ | ------------ | ------------------------------------|
 | [3.7.0-04] - latest          | frekele/java:jdk8        | Production   | 3.7.0-04, 3.7.0, 3.7, 3, latest     |
 | [3.6.2-01]                   | frekele/java:jdk8        | Production   | 3.6.2-01, 3.6.2, 3.6                |
-| [3.6.1-02]                   | frekele/java:jdk8        | Production   | 3.6.1-02, 3.6.1,                    |
+| [3.6.1-02]                   | frekele/java:jdk8        | Production   | 3.6.1-02, 3.6.1                     |
 | [3.5.2-01]                   | frekele/java:jdk8        | Production   | 3.5.2-01, 3.5.2, 3.5                |
 | [3.5.1-02]                   | frekele/java:jdk8        | Production   | 3.5.1-02, 3.5.1                     |
 | [3.5.0-02]                   | frekele/java:jdk8        | Production   | 3.5.0-02, 3.5.0                     |
