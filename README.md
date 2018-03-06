@@ -16,7 +16,8 @@
 
 | Branch                       | From                     | Usage        | Tag Names                           |
 | ---------------------------- | ------------------------ | ------------ | ------------------------------------|
-| [3.8.0-02] - latest          | frekele/java:jdk8        | Production   | 3.8.0-02, 3.8.0, 3.8, 3, latest     |
+| [3.9.0-01] - latest          | frekele/java:jdk8        | Production   | 3.9.0-01, 3.9.0, 3.9, 3, latest     |
+| [3.8.0-02]                   | frekele/java:jdk8        | Production   | 3.8.0-02, 3.8.0, 3.8                |
 | [3.7.1-02]                   | frekele/java:jdk8        | Production   | 3.7.1-02, 3.7.1, 3.7                |
 | [3.7.0-04]                   | frekele/java:jdk8        | Production   | 3.7.0-04, 3.7.0                     |
 | [3.6.2-01]                   | frekele/java:jdk8        | Production   | 3.6.2-01, 3.6.2, 3.6                |
@@ -109,6 +110,7 @@ frekele/docker-Nexus is **licensed** under the **[MIT License]**. The terms of t
 [MIT LICENSE]: https://github.com/frekele/docker-nexus/blob/master/LICENSE
 
 
+[3.9.0-01]: https://github.com/frekele/docker-nexus/blob/3.9.0-01/Dockerfile
 [3.8.0-02]: https://github.com/frekele/docker-nexus/blob/3.8.0-02/Dockerfile
 [3.7.1-02]: https://github.com/frekele/docker-nexus/blob/3.7.1-02/Dockerfile
 [3.7.0-04]: https://github.com/frekele/docker-nexus/blob/3.7.0-04/Dockerfile
