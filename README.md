@@ -16,7 +16,11 @@
 
 | Branch                       | From                     | Usage        | Tag Names                           |
 | ---------------------------- | ------------------------ | ------------ | ------------------------------------|
-| [3.9.0-01] - latest          | frekele/java:jdk8        | Production   | 3.9.0-01, 3.9.0, 3.9, 3, latest     |
+| [3.12.1-01] - latest         | frekele/java:jdk8        | Production   | 3.12.1-01, 3.12.1, 3.12, 3, latest  |
+| [3.12.0-01]                  | frekele/java:jdk8        | Production   | 3.12.0-01, 3.12.0                   |
+| [3.11.0-01]                  | frekele/java:jdk8        | Production   | 3.11.0-01, 3.11.0, 3.11             |
+| [3.10.0-04]                  | frekele/java:jdk8        | Production   | 3.10.0-04, 3.10.0, 3.10             |
+| [3.9.0-01]                   | frekele/java:jdk8        | Production   | 3.9.0-01, 3.9.0, 3.9                |
 | [3.8.0-02]                   | frekele/java:jdk8        | Production   | 3.8.0-02, 3.8.0, 3.8                |
 | [3.7.1-02]                   | frekele/java:jdk8        | Production   | 3.7.1-02, 3.7.1, 3.7                |
 | [3.7.0-04]                   | frekele/java:jdk8        | Production   | 3.7.0-04, 3.7.0                     |
@@ -109,7 +113,10 @@ frekele/docker-Nexus is **licensed** under the **[MIT License]**. The terms of t
 [NEXUS LICENSE]: https://github.com/frekele/docker-nexus/blob/master/NEXUS_LICENSE
 [MIT LICENSE]: https://github.com/frekele/docker-nexus/blob/master/LICENSE
 
-
+[3.12.1-01]: https://github.com/frekele/docker-nexus/blob/3.12.1-01/Dockerfile
+[3.12.0-01]: https://github.com/frekele/docker-nexus/blob/3.12.0-01/Dockerfile
+[3.11.0-01]: https://github.com/frekele/docker-nexus/blob/3.11.0-01/Dockerfile
+[3.10.0-04]: https://github.com/frekele/docker-nexus/blob/3.10.0-04/Dockerfile
 [3.9.0-01]: https://github.com/frekele/docker-nexus/blob/3.9.0-01/Dockerfile
 [3.8.0-02]: https://github.com/frekele/docker-nexus/blob/3.8.0-02/Dockerfile
 [3.7.1-02]: https://github.com/frekele/docker-nexus/blob/3.7.1-02/Dockerfile
